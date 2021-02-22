@@ -1,8 +1,1 @@
-*.pyc
-*~
-/.vscode
-__pycache__
-myvenv
-db.sqlite3
-/static
-.DS_Store
+-e __pycache__\\ndb.sqlite3\\n.DS_Store\\nlocal_settings.py 
