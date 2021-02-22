@@ -155,8 +155,7 @@ if not DEBUG:
     import django_heroku #追加
     django_heroku.settings(locals()) #追加
 
-DATABASES = 
-{
+DATABASES = {
 'default': {
     'ENGINE': 'django.db.backends.postgresql_psycopg2',
     'NAME': 'name',
@@ -165,4 +164,4 @@ DATABASES =
     'HOST': 'host',
     'PORT': '',
     }
-}
+    }
